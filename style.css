@@ -1,0 +1,74 @@
+
+#introduction{
+    background-color: skyblue;
+    border: 10px solid black;
+    border-radius: 25px;
+    margin: 1%;
+    padding: 1%;
+    color: black;
+    font-size: 100%;
+    width: 50%;
+}
+#CaesarEncodeDecode{
+    
+    background-color:hsl(0, 0%, 15%);
+    height: 75%;
+    width: 75%;
+    border-radius: 10px;
+    padding: 1%;
+    overflow: hidden;
+}
+#Buttons{
+    display: grid;
+    width: 100%;
+    padding: 1%;
+    background: black
+}
+#ReverseButton{
+    width: 10%;
+    background: lightblue;
+    border: none;
+    font-weight: bold;
+    border-radius: 10px;
+}
+#ProceedButton{
+    width: 100%;
+    background:green;
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 10px;
+}
+#InputedMessage{
+    width: 100%;
+    background: hsl(0, 0%, 25%);
+    border-radius: 10px;
+    color: white;
+    padding: 1%;
+}
+#Shift{
+    width: 100%;
+    background: hsl(0, 0%, 25%);
+    border-radius: 10px;
+    color: white;
+    padding: 1%;
+}
+#OutputedMessage{
+    width: 100%;
+    background: hsl(0, 0%, 25%);
+    border-radius: 10px;
+    color: white;
+    padding: 1%;
+}
+#input{
+    color: white;
+    font-weight: bold;
+}
+#shiftText{
+    color: white;
+    font-weight: bold;
+}
+#output{
+    color: white;
+    font-weight: bold;
+}

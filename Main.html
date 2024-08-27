@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Vinel's Caesar Decoder</title>
+
+        <meta charset="UTF-8">
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="introduction"><p><h1>Hi there, how do you do?</h1> <h3>Let me introduse you to <b>Vinel's <i>Caesar Decoder</i></b>. Maybe your cause to be here is becouse Vinel said a confusing word/sentence to you, eg. "ijuifsf".
+            Vinel does that becouse he is sending you a secret message. Don't worry, i'll help you translate that confusing crap using Caesar Decoder. And you can send him a secret message too using Caesar Encoder.
+            </h3></p>
+        </div>
+
+        <a href="https://www.youtube.com/@DVel69" target="_blank">
+            Check out my Youtube channel
+        </a> 
+
+        <div id="CaesarEncodeDecode">
+            <p id="input">Message</p>
+            <input type="text" id="InputedMessage">
+            <p id="shiftText">Shift (number 1-26)</p>
+            <input type="text" id="Shift">
+            <button onclick="toggleMode()" id="ReverseButton">Toggle Mode</button>
+            <p id="output">Decode</p>
+            <input type="text" readonly id="OutputedMessage">
+            <button onclick="processMessage()" id="ProceedButton">Proceed</button>
+       
+           
+        </div>
+
+    <script src="script.js"></script>
+
+    </body>
+</html>
